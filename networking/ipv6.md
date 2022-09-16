@@ -14,7 +14,7 @@ We can abbreviate whole blocks of zeros with `::` and write:
 
     FDDD:F00D:CAFE::1
 
-This can only be done *once* in order to void ambiguity:
+This can only be done *once* in order to avoid ambiguity:
 
     FF:0:0:0:1:0:0:1 (correct)
     FF::1:0:0:1 (correct)
